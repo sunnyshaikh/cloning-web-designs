@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Play music on the go!</title>
+    <!-- Font Awesome Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./images/spotifylogo.svg" alt="spotify" width="134px" />
+                </a>
+            </div>
+            <nav class="menu">
+                <ul class="navbar-menu">
+                    <li class="nav-item">
+                        <a href="#">premium</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">download</a>
+                    </li>
+                </ul>
+                <span class="seperator"></span>
+                <div class="buttons">
+                    <ul>
+                        <li class="nav-item">
+                            <a href="#" class="user">sign up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="user">log in</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="left">
+                <div class="mobile-shape">
+                    <div class="image">
+                        <img src="./images/mobile.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <h1>Play millions of songs and podcasts, for free.</h1>
+                <button class="btn">get spotify free</button>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#features"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </header>
+
+    <!-- features -->
+    <section class="features" id="features">
+        <div class="container">
+            <h1 class="section-heading">why spotify?</h1>
+            <div class="features-content">
+                <div class="feature">
+                    <div class="icon">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div class="desc">
+                        <h3 class="feature-title">Play your favorites.</h3>
+                        <p class="feature-desc">Listen to the songs you love, and discover new music and podcasts.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <div class="desc">
+                        <h3 class="feature-title">Playlists made easy.</h3>
+                        <p class="feature-desc">We'll help you make playlists. Or enjoy playlists made by music experts.
+                        </p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="desc">
+                        <h3 class="feature-title">Make it yours.</h3>
+                        <p class="feature-desc">Tell us what you like, and we'll recommend music for you.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="desc">
+                        <h3 class="feature-title">Save mobile data.</h3>
+                        <p class="feature-desc">To use less data when you play music, turn on Data Saver in Settings.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section -->
+    <section class="section1">
+        <h1>
+            It's free.<br />
+            No credit card required.
+        </h1>
+    </section>
+
+    <!-- question section -->
+    <section class="questions">
+        <div class="container">
+            <h1 class="section-heading">got questions?</h1>
+            <div class="questions-content">
+                <div class="question">
+                    <input type="checkbox" id="q1" class="toggle" name="toggle">
+                    <label for="q1">How do I create playlist?<i class="fas fa-chevron-down"></i></label>
+                    <div class="toggle-content">
+                        <p>Playlists are a great way to save collections of music, either for your own listening or to
+                            share.
+                        </p>
+                        <p>To create one:</p>
+                        <ul type="1">
+                            <li>Tap Your Library.</li>
+                            <li>Tap <span style="color: #000; font-weight: bold;">CREATE</span>.</li>
+                            <li>Give your playlist a name.</li>
+                            <li>Start adding songs (and we’ll help you along).</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="question">
+                    <input type="checkbox" id="q2" class="toggle" name="toggle">
+                    <label for="q2">How do I activate Data Saver mode?<i class="fas fa-chevron-down"></i></label>
+                    <div class="toggle-content">
+                        <ul type="1">
+                            <li>Tap <span style="color: #000; font-weight: bold;">HOME</span>.</li>
+                            <li>Tap <span style="color: #000; font-weight: bold;">SETTINGS</span>.</li>
+                            <li>Tap <span style="color: #000; font-weight: bold;">DATA SAVER</span>.</li>
+                            <li>Switch on Data Saver.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="question">
+                    <input type="checkbox" id="q3" class="toggle" name="toggle">
+                    <label for="q3">Is it only possible to shuffle play music?<i
+                            class="fas fa-chevron-down"></i></label>
+                    <div class="toggle-content">
+                        <p>Any playlist with the shuffle icon <i class="fas fa-random"></i> will play on shuffle.</p>
+                        <p>Some playlists won't have the shuffle icon, so you can tap any song to play it.</p>
+                    </div>
+                </div>
+                <div class="question">
+                    <input type="checkbox" id="q4" class="toggle" name="toggle">
+                    <label for="q4">Where can I find podcasts?<i class="fas fa-chevron-down"></i></label>
+                    <div class="toggle-content">
+                        <p>Tap Search <i class="fas fa-search"></i>&nbsp;. Under Browse All, tap Podcasts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section -->
+    <section class="section2">
+        <h1>
+            Ready? Let's Play.
+        </h1>
+        <button class="btn">get spotify free</button>
+    </section>
+</body>
+
+</html>
